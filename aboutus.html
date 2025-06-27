@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nour Baserti - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/black-logo" href="black-logo.webp">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="black-logo.webp" alt="Company Logo">
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+       <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <!-- <li><a href="index.html#pricing">Services</a></li> -->
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <!-- <li><a href="index.html#contact">Pacasdakages</a></li> -->
+                    <li><a href="contact.html">Contact Us</a></li> 
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="quote-btn" onclick="requestQuote()">REQUEST A QUOTE</button>
+                <button class="book-btn" onclick="bookNow()">BOOK NOW</button>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero-image-section">
+        <img src="image.png" alt="About Us Hero Image" class="hero-image">
+    </section>
+
+   
+    <section class="about-description">
+        <div class="container">
+            <div class="description-box">
+                <h1>About Our Transportation Company</h1>
+                <div class="description-content">
+                    <p>At Nour Baserti, we take pride in being your trusted transportation partner in Saudi Arabia. Whether you're a pilgrim, tourist, or local resident, our mission is to ensure every journey is safe, comfortable, and stress-free. With a dedication to excellence, we deliver unparalleled service across the region.</p>
+                    <p>Our fleet and team are committed to meeting your travel needs with professionalism and care, making us a preferred choice for travelers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="who-we-are">
+        <div class="container">
+            <div class="who-we-are-content">
+                <div class="who-we-are-text animate-slide-up">
+                    <h2>Who We Are?</h2>
+                    <p>We are a dedicated taxi service provider specializing in airport transfers, intercity travel, and sightseeing tours. Our services are tailored to meet the unique needs of travelers visiting the holy cities of Makkah and Madinah, as well as those exploring Saudi Arabia's historical and cultural landmarks.</p>
+                    <p>Our commitment to exceptional customer service has built a loyal client base, with our alliance of experienced cab companies ensuring hassle-free and comfortable journeys.</p>
+                </div>
+                <div class="who-we-are-images">
+                    <img src="Why-choose-us_banner.webp" alt="Vehicle 1" class="vehicle-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="why-are-we-best">
+        <div class="container">
+            <h2>Why Are We the Best Transport Company in Saudi Arabia</h2>
+            <div class="why-choose-grid">
+                <div class="why-choose-item animate-fade-in">
+                    <i class="fas fa-smile"></i>
+                    <h3>Customer Satisfaction</h3>
+                    <p>We prioritize customer satisfaction and ensure that every ride is a positive experience, utilizing our highly skilled and experienced drivers.</p>
+                </div>
+                <div class="why-choose-item animate-fade-in" style="animation-delay: 0.2s;">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Competitive Pricing</h3>
+                    <p>We offer competitive pricing, ensuring affordable rates without compromising on the quality of service or round-the-clock customer support.</p>
+                </div>
+                <div class="why-choose-item animate-fade-in" style="animation-delay: 0.4s;">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Trusted Service</h3>
+                    <p>We are recognized as one of Saudi Arabia's most reliable taxi providers, with years of experience serving travelers and pilgrims.</p>
+                </div>
+            </div>
+            <p class="overall-statement">Overall, we believe that our commitment to customer satisfaction, competitive pricing, and reliability sets us apart from other taxi broker companies and makes us the best transportation option throughout Saudi Arabia.</p>
+        </div>
+    </section>
+
+    <!-- Popup Forms -->
+    <div id="quoteForm" class="popup-form">
+        <div id="quoteFormContent" class="form-content">
+            <span class="close-btn">×</span>
+            <h2>Request a Quote</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="bookForm" class="popup-form">
+        <div id="bookFormContent" class="form-content">
+            <span class="close-btn">×</span>
+            <h2>Book Now</h2>
+            <form>
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" required>
+                <label for="dropoff">Dropoff Location:</label>
+                <input type="text" id="dropoff" name="dropoff" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section company-info">
+                <div class="footer-logo">
+                    <img src="black-logo.webp" alt="Nour Baserti Logo">
+                </div>
+                <p class="company-description">
+                    A reliable taxi service dedicated to providing seamless travel experiences across Saudi Arabia, 
+                    connecting you to the holy cities with ease and comfort.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-heading">Information</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+  <div class="footer-section">
+                <h3 class="footer-heading">Customer Support</h3>
+                <ul class="footer-links">
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3 class="footer-heading">Have a Question?</h3>
+                <ul class="contact-details">
+                    <li><i class="fas fa-envelope"></i> info@nourbaserti.com</li>
+                    <li><i class="fas fa-phone"></i> +966 55 126 2206</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 
+                        <address>
+                            Nour Baserti For Transportation<br>
+                            King Abdullah Road, King Fahad District<br>
+                            Al-Madinah Al-Munawara<br>
+                            Medina 42311, Saudi Arabia
+                        </address>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Nour Baserti. All rights reserved. <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

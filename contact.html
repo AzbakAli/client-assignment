@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nour Baserti Transportation - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/black-logo" href="black-logo.webp">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="black-logo.webp" alt="Company Logo">
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+       <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <!-- <li><a href="index.html#pricing">Services</a></li> -->
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <!-- <li><a href="index.html#contact">Pacasdakages</a></li> -->
+                    <li><a href="contact.html">Contact Us</a></li> 
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="quote-btn">REQUEST A QUOTE</button>
+                <button class="book-btn">BOOK NOW</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="contact-hero">
+        <h1>Contact Us</h1>
+        <p>Get in touch with Nour Baserti for any inquiries, bookings, or support</p>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2>We're Here to Help</h2>
+                <p>Contact us for any questions about our transportation services. Our team is available to assist you with bookings, pricing, and any special requests.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@nourbaserti.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+966 55 126 2206</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <address>
+                                Nour Baserti For Transportation<br>
+                                King Abdullah Road, King Fahad District<br>
+                                Al-Madinah Al-Munawara<br>
+                                Medina 42311, Saudi Arabia
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="contact-book-btn">BOOK NOW</button>
+            </div>
+            
+            <div class="contact-image">
+                <img src="contact_us_banner.webp" alt="Our Transportation Service">
+            </div>
+        </div>
+    </div>
+
+    <div class="social-section">
+        <h2>Get Connected With Us</h2>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+
+    <!-- Popup Forms -->
+    <div class="popup-form" id="quoteForm">
+        <div class="form-content">
+            <span class="close-btn">×</span>
+            <h2>Request a Quote</h2>
+            <form id="quoteFormContent">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="service">Service:</label>
+                <select id="service" required>
+                    <option value="">Select a Service</option>
+                    <option value="makkah-ziyarat">Makkah Ziyarat</option>
+                    <option value="madinah-ziyarat">Madinah Ziyarat</option>
+                    <option value="airport-makkah">Airport to Makkah Hotel</option>
+                    <option value="makkah-madinah">Makkah to Madinah</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup-form" id="bookForm">
+        <div class="form-content">
+            <span class="close-btn">×</span>
+            <h2>Book Now</h2>
+            <form id="bookFormContent">
+                <label for="book-name">Name:</label>
+                <input type="text" id="book-name" required>
+                <label for="book-date">Travel Date:</label>
+                <input type="date" id="book-date" required>
+                <label for="book-service">Service:</label>
+                <select id="book-service" required>
+                    <option value="">Select a Service</option>
+                    <option value="makkah-ziyarat">Makkah Ziyarat</option>
+                    <option value="madinah-ziyarat">Madinah Ziyarat</option>
+                    <option value="airport-makkah">Airport to Makkah Hotel</option>
+                    <option value="makkah-madinah">Makkah to Madinah</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section company-info">
+                <div class="footer-logo">
+                    <img src="black-logo.webp" alt="Nour Baserti Logo">
+                </div>
+                <p class="company-description">
+                    A reliable taxi service dedicated to providing seamless travel experiences across Saudi Arabia, 
+                    connecting you to the holy cities with ease and comfort.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-heading">Information</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+          <div class="footer-section">
+                <h3 class="footer-heading">Customer Support</h3>
+                <ul class="footer-links">
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3 class="footer-heading">Have a Question?</h3>
+                <ul class="contact-details">
+                    <li><i class="fas fa-envelope"></i> info@nourbaserti.com</li>
+                    <li><i class="fas fa-phone"></i> +966 55 126 2206</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 
+                        <address>
+                            Nour Baserti For Transportation<br>
+                            King Abdullah Road, King Fahad District<br>
+                            Al-Madinah Al-Munawara<br>
+                            Medina 42311, Saudi Arabia
+                        </address>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Nour Baserti. All rights reserved. <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

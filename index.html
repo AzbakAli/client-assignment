@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nour Baserti Transportation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" type="image/black-logo" href="black-logo.webp">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="black-logo.webp" alt="Company Logo">
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+       <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <!-- <li><a href="index.html#pricing">Services</a></li> -->
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <!-- <li><a href="index.html#contact">Pacasdakages</a></li> -->
+                    <li><a href="contact.html">Contact Us</a></li> 
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <button class="quote-btn">REQUEST A QUOTE</button>
+                <button class="book-btn">BOOK NOW</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="popup-form" id="quoteForm">
+        <div class="form-content">
+            <span class="close-btn">×</span>
+            <h2>Request a Quote</h2>
+            <form id="quoteFormContent">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="service">Service:</label>
+                <select id="service" required>
+                    <option value="">Select a Service</option>
+                    <option value="makkah-ziyarat">Makkah Ziyarat</option>
+                    <option value="madinah-ziyarat">Madinah Ziyarat</option>
+                    <option value="airport-makkah">Airport to Makkah Hotel</option>
+                    <option value="makkah-madinah">Makkah to Madinah</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="popup-form" id="bookForm">
+        <div class="form-content">
+            <span class="close-btn">×</span>
+            <h2>Book Now</h2>
+            <form id="bookFormContent">
+                <label for="book-name">Name:</label>
+                <input type="text" id="book-name" required>
+                <label for="book-date">Travel Date:</label>
+                <input type="date" id="book-date" required>
+                <label for="book-service">Service:</label>
+                <select id="book-service" required>
+                    <option value="">Select a Service</option>
+                    <option value="makkah-ziyarat">Makkah Ziyarat</option>
+                    <option value="madinah-ziyarat">Madinah Ziyarat</option>
+                    <option value="airport-makkah">Airport to Makkah Hotel</option>
+                    <option value="makkah-madinah">Makkah to Madinah</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="content-section" id="home">
+        <div class="image-container">
+            <img src="hero1.webp" alt="Main Banner">
+        </div>
+    </div>
+
+    <div class="services-container" id="services">
+        <div class="service-card">
+            <div class="card-icon">
+                <img src="MAKKAH-ZAYARAT-01.png" alt="Makkah Ziyarat">
+            </div>
+            <h3>Makkah Ziyarat</h3>
+            <p>Discover Makkah's historical and religious landmarks with our comfortable and knowledgeable taxi service.</p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <img src="MADINA-ZAYARAT-01.png" alt="Madinah Ziyarat">
+            </div>
+            <h3>Madinah Ziyarat</h3>
+            <p>Explore the sacred sites of Madinah with our guided Ziyarat tours, tailored for your convenience.</p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <img src="airport-makkah hotel-01.png" alt="Airport Transfer">
+            </div>
+            <h3>Airport to Makkah Hotel</h3>
+            <p>Seamless airport transfers to your Makkah hotel with our comfortable and reliable taxi services.</p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <img src="MAKAAH-MADINA-01.png" alt="Intercity Transfer">
+            </div>
+            <h3>Makkah Hotel to Madinah Hotel</h3>
+            <p>Travel between the holy cities of Makkah and Madinah with ease in our spacious vehicles.</p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <img src="MADINA-MAKKAH-01.png" alt="Madinah to Makkah">
+            </div>
+            <h3>Madinah to Makkah</h3>
+            <p>Enjoy a hassle-free journey back to Makkah from Madinah, ensuring comfort and punctuality.</p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <img src="JEDHA-MADINA-01.png" alt="Airport Transfer">
+            </div>
+            <h3>Madinah to Jeddah Airport</h3>
+            <p>Timely transfers from Madinah to Jeddah Airport for a stress-free end to your trip.</p>
+        </div>
+        <div class="service-card">
+            <div class="card-icon">
+                <img src="airport-makkah hotel-01.png" alt="Airport Pickup">
+            </div>
+            <h3>Jeddah Airport to Madinah</h3>
+            <p>Start your journey to the holy city of Madinah with our prompt airport pickup service.</p>
+        </div>
+    </div>
+
+    <div class="vehicles-section" id="vehicles">
+        <div class="section-header">
+            <h2>Our Vehicles</h2>
+            <p>Experience luxury and comfort with our premium fleet of vehicles</p>
+        </div>
+        <div class="vehicles-grid">
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="camary.webp" alt="Toyota Camry">
+                </div>
+                <div class="vehicle-details">
+                    <h3>Toyota Camry</h3>
+                    <ul class="vehicle-specs">
+                        <li><i class="fas fa-users"></i> 4 People</li>
+                        <li><i class="fas fa-suitcase"></i> 2 Suitcases</li>
+                        <li><i class="fas fa-briefcase"></i> 1 Hand Luggage</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="stiria.webp" alt="Hyundai Storia">
+                </div>
+                <div class="vehicle-details">
+                    <h3>Hyundai Storia</h3>
+                    <ul class="vehicle-specs">
+                        <li><i class="fas fa-users"></i> 8 People</li>
+                        <li><i class="fas fa-suitcase"></i> 7 Suitcases</li>
+                        <li><i class="fas fa-briefcase"></i> 3 Hand Luggages</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="gmc.webp" alt="GMC">
+                </div>
+                <div class="vehicle-details">
+                    <h3>GMC</h3>
+                    <ul class="vehicle-specs">
+                        <li><i class="fas fa-users"></i> 7 People</li>
+                        <li><i class="fas fa-suitcase"></i> 5 Suitcases</li>
+                        <li><i class="fas fa-briefcase"></i> 3 Hand Luggages</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="hiace.webp" alt="Hiace">
+                </div>
+                <div class="vehicle-details">
+                    <h3>Hiace</h3>
+                    <ul class="vehicle-specs">
+                        <li><i class="fas fa-users"></i> 11 People</li>
+                        <li><i class="fas fa-suitcase"></i> 13 Suitcases</li>
+                        <li><i class="fas fa-briefcase"></i> 5-6 Hand Luggages</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="coaster.webp" alt="Coaster">
+                </div>
+                <div class="vehicle-details">
+                    <h3>Coaster</h3>
+                    <ul class="vehicle-specs">
+                        <li><i class="fas fa-users"></i> 19 People</li>
+                        <li><i class="fas fa-suitcase"></i> 19 Suitcases</li>
+                        <li><i class="fas fa-briefcase"></i> 19 Hand Luggages</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="vehicle-card">
+                <div class="vehicle-image">
+                    <img src="bus.webp" alt="Bus">
+                </div>
+                <div class="vehicle-details">
+                    <h3>Bus</h3>
+                    <ul class="vehicle-specs">
+                        <li><i class="fas fa-users"></i> 47/49/51 People</li>
+                        <li><i class="fas fa-suitcase"></i> 47/49/51 Suitcases</li>
+                        <li><i class="fas fa-briefcase"></i> 47/49/51 Hand Luggages</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="why-choose-us" id="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Us?</h2>
+                <p class="subtitle">Why you should choose our taxi services?</p>
+            </div>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <div class="main-description">
+                        <p>Choosing the right taxi service can greatly enhance your travel experience in Saudi Arabia. At Nour Baserti, we are dedicated to offering unmatched comfort, convenience, and reliability for all your transportation needs.</p>
+                        <p>When traveling to your destination, you may relax and have fun with our airport shuttle service. Reserve your ride with us today!</p>
+                    </div>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img src="MAKKAH-ZAYARAT-01.png" alt="Makkah Ziyarat">
+                            </div>
+                            <h3>Makkah Ziyarat</h3>
+                            <ul>
+                                <li>Madina Ziyarat</li>
+                                <li>Airport Pickup</li>
+                            </ul>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <img src="https://i.pinimg.com/736x/20/62/bf/2062bf8a689746521c63f0547f4f8602.jpg" alt="VIP Service">
+                            </div>
+                            <h3>VIP Exclusive Service</h3>
+                            <ul>
+                                <li>Professional Drivers</li>
+                                <li>Luxury Vehicles</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="book-now-btn">BOOK NOW</button>
+                </div>
+                <div class="image-content">
+                    <img src="Why-choose-us_banner.webp" alt="Our Taxi Service">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ziyarat-section" id="ziyarat">
+        <h2 class="section-title">Ziyarat Services</h2>
+        <div class="ziyarat-grid">
+            <div class="ziyarat-card">
+                <div class="ziyarat-image">
+                    <img src="MAKKAH-ZAYARAT.webp" alt="Makkah Ziyarat">
+                    <div class="overlay">
+                        <h3>Makkah Ziyarat</h3>
+                        <p>Visit the Holy Kaaba, Masjid al-Haram, and other sacred sites</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ziyarat-card">
+                <div class="ziyarat-image">
+                    <img src="MADINA.webp" alt="Madina Ziyarat">
+                    <div class="overlay">
+                        <h3>Madina</h3>
+                        <p>Visit the Prophet's Mosque and sacred Islamic sites</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ziyarat-card">
+                <div class="ziyarat-image">
+                    <img src="taif.webp" alt="Taif">
+                    <div class="overlay">
+                        <h3>Taif</h3>
+                        <p>Historical site with significant Islamic importance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ziyarat-card">
+                <div class="ziyarat-image">
+                    <img src="Battle-of-Badr-site.webp" alt="Badar Site">
+                    <div class="overlay">
+                        <h3>Badar Site</h3>
+                        <p>Location of the historic Battle of Badr</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ziyarat-card">
+                <div class="ziyarat-image">
+                    <img src="wadi-e-jin.webp" alt="Wadi e Jinn">
+                    <div class="overlay">
+                        <h3>Wadi e Jinn</h3>
+                        <p>Mysterious valley with unique natural phenomena</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ziyarat-card">
+                <div class="ziyarat-image">
+                    <img src="masjid-quba.webp" alt="Masjid Quba">
+                    <div class="overlay">
+                        <h3>Masjid Quba</h3>
+                        <p>The first mosque built in Islamic history</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ziyarat-card">
+                <div class="ziyarat-image">
+                    <img src="Cave-of-Hira.webp" alt="Cave of Hira">
+                    <div class="overlay">
+                        <h3>Cave of Hira</h3>
+                        <p>Where Prophet Muhammad (PBUH) received first revelation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ziyarat-card">
+                <div class="ziyarat-image">
+                    <img src="cave-of-thawr.webp" alt="Cave of Thawr">
+                    <div class="overlay">
+                        <h3>Cave of Thawr</h3>
+                        <p>Shelter during the Hijrah to Madinah</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section company-info">
+                <div class="footer-logo">
+                    <img src="black-logo.webp" alt="Nour Baserti Logo">
+                </div>
+                <p class="company-description">
+                    A reliable taxi service dedicated to providing seamless travel experiences across Saudi Arabia, 
+                    connecting you to the holy cities with ease and comfort.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-heading">Information</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 class="footer-heading">Customer Support</h3>
+                <ul class="footer-links">
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h3 class="footer-heading">Have a Question?</h3>
+                <ul class="contact-details">
+                    <li><i class="fas fa-envelope"></i> info@nourbaserti.com</li>
+                    <li><i class="fas fa-phone"></i> +966 55 126 2206</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 
+                        <address>
+                            Nour Baserti For Transportation<br>
+                            King Abdullah Road, King Fahad District<br>
+                            Al-Madinah Al-Munawara<br>
+                            Medina 42311, Saudi Arabia
+                        </address>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Nour Baserti. All rights reserved. <a href="#">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
